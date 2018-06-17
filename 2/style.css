@@ -1,0 +1,204 @@
+body {
+	background-color: #f5f7fa;
+	font-weight: 500;
+	font-family: helvetica;
+}
+
+.section {
+	width: 50%;
+	float: left;
+}
+
+.card {
+	background-color: #ffffff;
+	margin: 5px;
+	padding: 40px 45px 40px 45px;
+	height: 300px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px 0px #eaeaea;
+}
+
+.card .header {
+	margin: 10px 0px 20px 0px;
+}
+
+.card .header > * {
+	display: inline-block;
+}
+
+.card .header p {
+	margin-top: 0;
+}
+
+.row {
+	display: block;
+	width: 100%;
+	height: 51px;
+	margin-bottom: 5px;
+}
+
+.row > * {
+	display: inline-block;
+}
+
+.avatar {
+	height: 45px;
+	width: 45px;
+	border-radius: 3px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+.avatar span {
+	line-height: 45px;
+}
+
+.helvetica {
+	font-family: Helvetica;
+}
+
+.roboto {
+	font-family: Roboto;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.text-gray {
+	color: #98a0a6;
+}
+
+.f-s-15 {
+	font-size: 15px;
+}
+
+.last-seen {
+	float: right;
+	font-family: Helvetica;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+#users-activity .right .row p {
+	float: right;
+}
+
+#users-activity .right .row {
+	display: block;
+	vertical-align: middle;
+	position: relative;
+	left: 40px;
+}
+
+#users-activity .right .row p {
+	position: relative;
+	right: 40px;
+}
+
+.progress {
+	background-color: #f2f4f7;
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	position: relative;
+	top: 10px;
+	border-radius: 10px;
+}
+
+.bar {
+	height: 6px;
+	border-radius: 10px;
+	float: left;
+}
+
+.red {
+	background-color: #fa607e;
+}
+
+.blue {
+	background-color: #4680ff;
+}
+
+.ellipsis {
+	width: 20px;
+	float: right;
+	position: relative;
+	top: 0px;
+}
+
+.checkbox {
+	border: 1px #e6e8eb solid;
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	top: -30px;
+}
+
+.text {
+	line-height: 20px;
+	margin-left: 10px;
+}
+
+.deadline {
+	float: right;
+	position: relative;
+	top: 20px;
+	border-radius: 15px;
+	padding: 7px 15px 7px 15px;
+	font-size: 15px;
+}
+
+.task {
+	font-size: 20px;
+}
+
+#last-tasks .row {
+	margin-bottom: 15px;
+}
+
+.task-detail {
+	position: relative;
+	top: -15px;
+	color: #adb3b8;
+}
+
+.right .deadline {
+	position: relative;
+	right: 45px;
+}
+
+#check {
+	width: 19px;
+	height: 15px;
+	position: relative;
+	top: 7px;
+	left: 3px
+}
+
+.yellow-text {
+	color: #fdb44d;
+}
+
+.yellow-bg {
+	background-color: #fff0db;
+}
+
+.circle {
+	background-color: #4786ff;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	position: fixed;
+	right: 13px;
+	top: 380px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	box-shadow: 0 10px 60px 1px #88b1fe;
+}

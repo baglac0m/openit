@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task#3</title>
+
+	<!--load everything -->
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!--navbar-->
+	<div class="navbar">
+		<div class="four-squares">
+			
+			<span>	<div></div>	<div></div>	</span>
+
+			<span>	<div></div>	<div></div> </span>
+
+		</div>
+		<p class="text-gray bold" style="margin-right:120px">Boards</p>
+
+		<img src="assets/search.png" id="search">
+		<p class="text-gray" style="color:#cbcfd2"><b><i>Search ...</i></b></p>
+
+		<img src="assets/logo.png" id="logo">
+		<img src="assets/expand.png" id="expand">
+
+		<img src="assets/burger.png" id="menu-button">
+		<img src="assets/bell.png" id="notification">
+		<p style="font-weight:600;float:right;font-size:15px;margin-left:20px;color:#aeb4b9"> Hello, Anna!</p>
+		<div class="avatar" style="background-image: url(img/avatar.png);background-size:cover;width:40px;height:40px;margin:20px 5px;float:right"></div>
+</div>
+<!-- end of navbar -->
+
+<!-- main part within container -->
+<div class="container">
+
+<!--top-->
+<div class="top">
+
+	<img src="assets/star.png">
+	<div class="top-text">
+		<!--<div class="square blue-shape"><img src="assets/star-white.png"></div>-->
+		<h2><b>Planner Board - Summary</b></h2>
+		<p>Netguru</p>
+	</div>
+	<img src="assets/cross.png" style="width:30px;float:right;padding-top:23px;left:0px;">
+</div>
+
+<!--first row with cards-->
+<div class="first-row-cards">
+	<div class="card card1"></div>
+	<div class="card card2"></div>
+	<div class="card card3"></div>
+</div>
+
+	<div class="section"> 
+		<div class="card" id="users-activity" style="margin-right: 20px">
+			<div class="header  bold">
+				<p class="text-gray f-s-15">USER'S ACTIVITY</p>
+				<img src="assets/ellipsis-h-gray.png" class="ellipsis">
+			</div>
+
+			<div class="half">
+				<!-- Anna Klawikowska -->
+				<div class="row"> 
+					<div class="avatar" style="background-image: url(img/avatar.png);background-size:contain"><span>.</span></div>
+					<p class="name">Anna Klawikowska</p>
+					<p class="last-seen text-gray">2 min ago</p>
+				</div>
+
+				<!-- Siergiej Soskowiec -->
+				<div class="row">
+					<div class="avatar" style="background-color:#fef0db;color:#fdb44d"><span>S</span></div>
+					<p class="name">Siergiej Soskowiec</p>
+					<p class="last-seen text-gray">2h ago</p>	
+				</div>
+
+				<!-- Michal Parulski -->
+				<div class="row">
+					<div class="avatar" style="background-color:#fedfe5;color:#fa607e"><span>M</span></div>
+					<p class="name">Michal Parulski</p>
+					<p class="last-seen text-gray">4h ago</p>	
+				</div>
+
+				<!-- Mateusz Czajka -->
+				<div class="row">
+					<div class="avatar" style="background-color:#dae7ff;color:#4786ff"><span>M</span></div>
+					<p class="name">Mateusz Czajka</p>
+					<p class="last-seen text-gray">1 day ago</p>	
+				</div>
+			</div>
+
+			<div class="right half">
+				<div class="row">
+					<div class="progress" style="width:60%">
+						<div class="bar blue" style="width:50%;border-top-right-radius:0px;border-bottom-right-radius:0px"></div>
+						<div class="bar red" style="width:20%;border-top-left-radius:0px;border-bottom-left-radius:0px;margin-left:3px"></div>
+					</div>
+					<p class="text-gray">12/24</p>
+				</div>
+				<div class="row">
+					<div class="progress" style="width:50%">
+						<div class="bar blue" style="width:80%"></div>
+					</div>
+					<p class="text-gray">21/22</p>
+				</div>
+				<div class="row">
+					<div class="progress" style="width:43%">
+						<div class="bar blue" style="width:50%;border-top-right-radius:0px;border-bottom-right-radius:0px"></div>
+						<div class="bar red" style="width:20%;border-top-left-radius:0px;border-bottom-left-radius:0px;margin-left:3px"></div>
+					</div>
+					<p class="text-gray">8/10</p>
+				</div>
+				<div class="row">
+					<div class="progress" style="width:60%">
+						<div class="bar blue" style="width:50%;border-top-right-radius:0px;border-bottom-right-radius:0px"></div>
+						<div class="bar red" style="width:7%;border-top-left-radius:0px;border-bottom-left-radius:0px;margin-left:3px"></div>
+					</div>	
+						<p class="text-gray">12/26</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--card two-->
+
+
+	<div class="section"> 
+		<div class="card" id="last-tasks" style="margin-left: 20px">
+
+			<div class="header bold">
+				<p class="text-gray f-s-15">LAST TASKS</p>
+				<img src="assets/ellipsis-h-gray.png" class="ellipsis">
+			</div>
+
+			<div class="half">
+				
+				<div class="row"> 
+					<div class="checkbox"></div>
+					<div class="text">
+						<p class="task">Create document list</p>
+						<p class="task-detail text-gray">Design Sprint</p>
+					</div>
+					<div class="deadline" style="color:#4786ff;background-color:#d9e6ff;">1 day</div>	
+				</div>
+
+				<div class="row"> 
+					<div class="checkbox" style="top:-43px">
+						<img src="assets/check-blue.png" id="check">
+					</div>
+					<div class="text" style="color:#98a0a6">
+						<p class="task" style="color:#ced2d5">Add new user to board</p>
+						<p class="task-detail text-gray">Design Sprint</p>
+					</div>
+				</div>
+				
+				<div class="row"> 
+					<div class="checkbox"></div>
+					<div class="text">
+						<p class="task">Create document list</p>
+						<p class="task-detail text-gray">Design Sprint</p>
+					</div>
+					<div class="deadline" style="color:#fa6582;background-color:#fedee4;">1 day</div>	
+				</div>
+
+			</div>
+
+			<div class="right half">
+
+				<div class="row" style="margin-left: 50px;"> 
+					<div class="checkbox"></div>
+					<div class="text">
+						<p class="task">Create document list</p>
+						<p class="task-detail text-gray">Design Sprint</p>
+					</div>
+
+				</div>	
+
+				<div class="row" style="margin-left: 50px;"> 
+					<div class="checkbox" style="top:-43px">
+						<img src="assets/check-blue.png" id="check">
+					</div>
+					<div class="text">
+						<p class="task">Add new user to board</p>
+						<p class="task-detail text-gray">Design Sprint</p>
+					</div>
+					<div class="deadline yellow-text yellow-bg">1 day</div>
+				</div>
+
+				<div class="row" style="margin-left: 50px;"> 
+					<div class="checkbox"></div>
+					<div class="text">
+						<p class="task">Create document list</p>
+						<p class="task-detail text-gray">Design Sprint</p>
+					</div>
+					<div class="deadline" style="color:#fa6582;background-color:#fedee4;">1 day</div>	
+				</div>
+			
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="circle blue-shape">
+		+	
+	</div>
+</div>
+
+</body>
+</html>
